@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, #2e8be1, #bb2ede );
+   
+    background-size: 100%;
+    font-family: 'Rosario', sans-serif;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+h1 { 
+	color:#681e7d;s
+	font-weight: 700;
+	font-style: italic;
+	margin-top: 0px; }
+
+.logo-agencia {
+	width: 125px;
+	position: absolute;
+	top:30px;
+	left: 30px;
+}
+
+.cont-carga {
+	width: 100%;
+	margin: 0 auto;
+	
+	background-color: white;
+    box-shadow: rgb(121, 80, 131) 0px 10px 20px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    height: auto;
+}
+
+.icono { 
+	float: right;
+	width: 35px;
+	margin-right: 20px; 
+}
+
+@media (max-width: 992px){
+	body { padding-bottom: 40px; }
+}
+
+
+@media (max-width: 620px){
+	.logo-agencia {
+	    width: 90px;
+	    position: absolute;
+	    top: 20px;
+	    left: 20px;
+	}
+
+	body {
+    	padding-top: 110px;
+	}
+}	

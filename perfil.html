@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <title>Perfil | Sistema de ODTs</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="title" content="Sistema de ODTs">
+    <meta name="description" content="Sistema de AGENCIAi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rosario:400,400i,700,700i" rel="stylesheet">
+    <link href="css/perfil.css" rel="stylesheet" type="text/css">
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/perfil.js"></script>
+
+  </head>
+
+  <body>
+    <section>
+      <img src="img/logo.png" class="logo-agencia">
+      <article class="container">
+        <div class="seccion-perfil"> 
+          <div class="cont-perfil">
+
+            <div class="row cont-datos"> 
+              <div class="col-md-2 col-sm-3 col-xs-5">
+                <img src="img/foto-perfil.png" class="foto-perfil">
+              </div>
+
+              <div class="col-md-7 col-sm-6 col-xs-7">
+                <h1>Joselin Corona Ontiveros</h1>
+                <h2>Directora de Cuentas</h2>
+              </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                  <img src="img/notificacion-ico.png" class="icono">
+                  <img src="img/ajustes-ico.png" class="icono">
+                </div>
+            </div>      
+              <div class="row"> 
+
+              <!--Izquierda--> 
+                <div class="col-md-6 proyectos">
+                  <h3>Mis proyectos <div></div></h3>
+
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-1 activo">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="p1"><span class="bullet">&bull;</span> Lorem ipsum dolor sit amet</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <p>Donec venenatis sagittis nisi, ut posuere dolor varius et. Nam felis purus, mattis at interdum sit amet, lacinia et justo. Duis dictum placerat erat eget dictum. Morbi lobortis lorem vel lacus aliquam, eu dignissim nibh lacinia. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-2">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="p2"><span class="bullet">&bull;</span> Lorem ipsum dolor sit amet</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Donec venenatis sagittis nisi, ut posuere dolor varius et. Nam felis purus, mattis at interdum sit amet, lacinia et justo. Duis dictum placerat erat eget dictum. Morbi lobortis lorem vel lacus aliquam, eu dignissim nibh lacinia. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-3">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="p3"><span class="bullet">&bull;</span> Lorem ipsum dolor sit amet</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Donec venenatis sagittis nisi, ut posuere dolor varius et. Nam felis purus, mattis at interdum sit amet, lacinia et justo. Duis dictum placerat erat eget dictum. Morbi lobortis lorem vel lacus aliquam, eu dignissim nibh lacinia. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-4">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="p4"><span class="bullet">&bull;</span> Lorem ipsum dolor sit amet</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Donec venenatis sagittis nisi, ut posuere dolor varius et. Nam felis purus, mattis at interdum sit amet, lacinia et justo. Duis dictum placerat erat eget dictum. Morbi lobortis lorem vel lacus aliquam, eu dignissim nibh lacinia. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+
+                <!--Derecha-->
+                <div class="col-md-6 datos">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a class="link" data-toggle="tab" href="#sectionA">Desempeño</a></li>
+                      <li><a  class="link" data-toggle="tab" href="#sectionB">Vacaciones</a></li>
+                  </ul>
+                  <div class="tab-content">
+                      <div id="sectionA" class="tab-pane fade in active">
+                          <img src="img/grafica.png" class="grafica">
+                      </div>
+                      <div id="sectionB" class="tab-pane fade">
+                          <p>Aún no tienes vacaciones cargadas</p>
+                          
+                      </div>
+                      
+                  </div>
+
+                </div>
+
+              <!--Fin Row-->  
+              </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

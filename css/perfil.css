@@ -1,0 +1,316 @@
+body {
+    background: linear-gradient(to bottom, #2e8be1, #bb2ede );
+   
+    background-size: 100%;
+    font-family: 'Rosario', sans-serif;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+h1 { 
+	color:#265f94;
+	font-weight: 700; }
+
+h2 { 
+	color:#681e7d;
+	font-weight: 400;
+	font-style:italic; margin-top: 0px;  }
+
+h3 { 
+	color:#681e7d;
+	font-weight: 700;
+	font-size: 30px;
+	font-style:normal; margin-top: 0px;
+	margin-bottom: 40px;  }	
+
+h3 div{ 
+
+width: 63%;
+background-color:#681e7d;
+height: 2px; 
+float: right;
+margin-top: 30px;
+
+ }			
+
+
+.logo-agencia {
+	width: 125px;
+	position: absolute;
+	top:30px;
+	left: 30px;
+}
+
+
+
+.cont-datos{
+	padding-bottom: 30px;
+}
+
+.cont-perfil {
+	width: 100%;
+	margin: 0 auto;
+	
+	background-color: white;
+    box-shadow: rgb(121, 80, 131) 0px 10px 20px;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    overflow: hidden;
+    height: auto;
+}
+
+.foto-perfil {
+	width: 100%;
+}
+
+.icono { 
+float: right;
+width: 35px;
+margin-right: 20px; }
+
+.grafica {
+	width: 100%;
+}
+
+.bullet {
+	color:#b837db;
+	font-size: 24px;
+	padding-right: 5px;
+}
+
+.tab-pane {
+	background-color: #ededed;
+	padding-top: 30px;
+	height: 450px;
+}
+
+.tab-pane p {
+	font-size: 20px;
+	margin-left:15px;
+}
+
+.proyectos .panel-heading {
+	background-color: transparent;
+	border-bottom:none;
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.proyectos .panel-heading.activo {
+	background-color: #681e7d;
+}
+.proyectos .panel-heading.activo .panel-title {
+	color: #fff;
+	text-decoration: none !important;
+}
+
+.proyectos .panel-heading.activo .bullet {
+	color: #f8dffe;
+}
+
+a:focus, a:hover { text-decoration: none !important; }
+
+.datos li a:hover{
+	background-color: #ededed;
+	color:#681e7d;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.datos li.active a{
+	background-color: #ededed;
+	color:#681e7d;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.datos li.active a:focus{
+	background-color: #ededed;
+	color:#681e7d;
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.datos li a{
+	background-color: #265f94;
+	color:#fff;
+	font-size: 20px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.proyectos .panel-title {
+	color: #681e7d;
+	font-size: 20px;
+}
+
+.proyectos .panel-default {
+	border:none;
+}
+
+.proyectos .panel-body {
+	border-top:none !important;
+	background-color: #fdf4ff;
+	color:#9b67aa;
+}
+
+@media (max-width: 1200px){
+
+	.tab-pane {height: 375px;}
+	.foto-perfil {
+    	width: 120px;
+	}
+	h3 div {
+    width: 53%;}
+}
+
+@media (max-width: 992px){
+	h3 div {
+    	width: 70%;
+    	}
+
+    body { padding-bottom: 40px; }
+
+    .tab-pane {height: auto;}
+
+    .tab-pane p {
+    padding-bottom: 30px;
+	}
+}
+
+@media (max-width: 768px){
+
+	.col-xs-5{
+		width: 140px;
+	}
+
+	.col-xs-7{
+		width: 420px;
+	}
+
+	.col-xs-12{
+		margin-top:10px;
+	}
+
+	h3 div {
+    	width: 100%;
+		margin-top: 5px;}
+
+	h1 {
+    	font-size: 30px;
+	}
+
+	h2 {
+    	font-size: 22px;
+	}
+
+	h3 {
+    	font-size: 20px;
+	}
+
+	.proyectos .panel-title {
+    	color: #681e7d;
+    	font-size: 16px;
+	}
+
+	.datos li.active a {
+	    font-size: 16px;
+	}
+
+	.datos li a:hover{
+		font-size: 16px;
+	
+	}
+
+	.datos li.active a:focus{
+		
+		font-size: 16px;
+	}
+
+	.datos li a{
+	
+		font-size: 16px;
+
+	}
+
+}
+
+@media (max-width: 620px){
+
+	.icono {
+    	float: left;
+    	width: 30px;
+    	margin-right: 20px;
+	}
+
+	.col-xs-5{
+		width: 100px;
+	}
+
+	.col-xs-7{
+		width: 120px;
+		padding: 0px;
+	}
+
+	.foto-perfil {
+    	width: 100%;
+	}
+
+	h3 div {
+    	width: 100%;
+		margin-top: 5px;}
+
+	h1 {
+    	font-size: 18px;
+    	margin-top: 0px;
+	}
+
+	h2 {
+    	font-size: 14px;
+	}
+
+	h3 {
+    	font-size: 20px;
+	}
+
+	.proyectos .panel-title {
+    	color: #681e7d;
+    	font-size: 16px;
+	}
+
+	.datos li.active a {
+	    font-size: 16px;
+	}
+
+	.datos li a:hover{
+		font-size: 16px;
+	
+	}
+
+	.datos li.active a:focus{
+		
+		font-size: 16px;
+	}
+
+	.datos li a{
+	
+		font-size: 16px;
+
+	}
+
+	.logo-agencia {
+	    width: 90px;
+	    position: absolute;
+	    top: 20px;
+	    left: 20px;
+	}
+
+	body {
+    padding-top: 110px;
+}
+}		
+
