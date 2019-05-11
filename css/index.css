@@ -39,12 +39,20 @@ input {
 
 .btn-enviar {
 	width:239px; 
-	height:39px; 
 	background-color: #2e8be1; 
 	border-radius: 5px; 
 	color: white;
 	box-shadow: none;
 	font-style: normal;
+	display: inline-block;
+	padding: 10px 0;
+	transition: background-color .3s ease-out;
+}
+
+.btn-enviar:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #388fee; 
 }
 
 .cont-form {
